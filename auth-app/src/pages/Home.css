@@ -1,0 +1,55 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-card {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.home-card h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-card .email {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.home-card button {
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-card button:hover {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

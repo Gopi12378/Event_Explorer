@@ -1,0 +1,76 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card input {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.auth-card input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 5px rgba(79, 172, 254, 0.6);
+}
+
+.auth-card button {
+  margin-top: 15px;
+  padding: 12px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-card button:hover {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+}
+
+.toggle-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.toggle-text span {
+  color: #4facfe;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+  font-size: 13px;
+}
