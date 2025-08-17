@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./EventList.css";
+import "./Eventlist.css";
 
 export default function EventList() {
   const [events, setEvents] = useState([]);
